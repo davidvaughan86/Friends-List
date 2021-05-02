@@ -42,7 +42,15 @@
 
 <%= link_to 'New Friend', new_friend_path, class:"btn btn-outline-info"%>
 <% else %>
-<h1>WELCOME TO THE HOME PAGE. YOUR FRIENDS LIST IS READY, PLEASE LOG IN.</h1>
+
+<div class="card bg-dark text-white">
+  <img src="/images/king.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h1 class="card-title">Friends List</h1>
+    <h4 class="card-text">Everybody has friends. Sign up or Log in</h4>
+    
+  </div>
+</div>
 
 
 <% end %>
