@@ -1,6 +1,8 @@
 # README
 
-A friends list to keep track of friend's contact info. Users can sign up abnd create their own individual friends list. A user cannot edit another user's friends list nor view their list.
+ https://davidvaughan86.github.io/Friends-List/
+
+A Ruby on Rails friends list to keep track of friend's contact info. Users can sign up abnd create their own individual friends list. A user cannot edit another user's friends list nor view their list.
 
 Users can create friends, update contact info, and delete contact info.
 
@@ -8,9 +10,9 @@ Users can delete their account if they no longer wish to be a memeber.
 
 # Dependencies
 
-gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
-gem 'sqlite3', '~> 1.4'
-gem 'devise', '~> 4.8'
+gem 'rails'
+gem 'sqlite3'
+gem 'devise'
 
 # Requirements
 
