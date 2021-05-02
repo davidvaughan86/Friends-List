@@ -7,7 +7,7 @@ ruby '2.6.3'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
-
+gem 'jquery-rails'
 gem 'puma', '~> 5.0'
 
 gem 'sass-rails', '>= 6'

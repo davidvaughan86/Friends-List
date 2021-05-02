@@ -1,10 +1,8 @@
-<p id="notice"><%= notice %></p>
-
 <h1>Friends List</h1>
-
-<table>
+<table class="table table-warning table-striped table-bordered table-hover">
   <thead>
-    <tr>
+    <tr class="table-success">
+
       <th>First name</th>
       <th>Last name</th>
       <th>Email</th>
@@ -14,22 +12,23 @@
     </tr>
   </thead>
 
-  <tbody>
+  
     <% @friends.each do |friend| %>
       <tr>
-        <td><%= friend.first_name %></td>
-        <td><%= friend.last_name %></td>
-        <td><%= friend.email %></td>
-        <td><%= friend.phone %></td>
-        <td><%= friend.twitter %></td>
-        <td><%= link_to 'Show', friend %></td>
-        <td><%= link_to 'Edit', edit_friend_path(friend) %></td>
-        <td><%= link_to 'Destroy', friend, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td class="table-info"><%= friend.first_name %></td>
+        <td class="table-info"><%= friend.last_name %></td>
+        <td class="table-info"><%= friend.email %></td>
+        <td class="table-info"><%= friend.phone %></td>
+        <td class="table-info"><%= friend.twitter %></td>
+        <td class="table-info"><%= link_to 'Show', friend %></td>
+        <td class="table-info"><%= link_to 'Edit', edit_friend_path(friend) %></td>
+        <td class="table-info"><%= button_to 'Remove Friend', friend, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
+
 <br>
 
-<%= link_to 'New Friend', new_friend_path %>
+<%= link_to 'New Friend', new_friend_path, class:"btn btn-outline-info"%>
