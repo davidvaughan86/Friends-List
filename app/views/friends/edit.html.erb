@@ -3,5 +3,9 @@
 <%= render 'form', friend: @friend %>
 <br/>
 <%= link_to 'Show', @friend , class:"btn btn-outline-info"%>
+<%= link_to 'Back', friends_path , class:"btn btn-outline-warning"%>	
+<br/>
+<br/>
+ <%= button_to 'Remove Friend', @friend, method: :delete, data: { confirm: 'Are you sure?' } , class: "btn btn-danger"%>
+<br/>
 
-<%= link_to 'Back', friends_path , class:"btn btn-outline-warning"%>
