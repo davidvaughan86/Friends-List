@@ -15,7 +15,7 @@ Users can delete their account if they no longer wish to be a memeber.
 # Dependencies
 
 gem 'rails'
-gem 'sqlite3'
+gem 'sqlite3' (development only. Postgres is used for production)
 gem 'devise'
 
 # Requirements
