@@ -1,4 +1,4 @@
-
+friendsonruub.herokuapp.com
 # README
 
 A Ruby on Rails friends list to keep track of friend's contact info. Users can sign up abnd create their own individual friends list. A user cannot edit another user's friends list nor view their list.
