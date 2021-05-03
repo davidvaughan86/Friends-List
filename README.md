@@ -1,4 +1,4 @@
-<a href='http://friendsaregems.bond/' >Friends are gems</a>
+<a href='http://friendsaregems.bond/' >Friends are gems</a> Check out the web app. You can use test@test:davethedev to login if you do not want to sign up.
 # README
 
 A Ruby on Rails friends list to keep track of friend's contact info. Users can sign up abnd create their own individual friends list. A user cannot edit another user's friends list nor view their list.
